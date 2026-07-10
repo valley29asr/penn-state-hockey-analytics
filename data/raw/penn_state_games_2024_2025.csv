@@ -1,41 +1,41 @@
-Date,Opponent,Location,Result
-Saturday Oct 5,Alaska,"Fairbanks, Alaska",W Win 4-3
-Sunday Oct 6,Alaska,"Fairbanks, Alaska",W Win 5-0
-Saturday Oct 12,Quinnipiac,"Hamden, Conn.",L Loss 2-3
-Friday Oct 25,St. Lawrence,"University Park, Pa. / Pegula Ice Arena",W Win 3-2
-Saturday Oct 26,St. Lawrence,"University Park, Pa. / Pegula Ice Arena",W Win 3-1
-Friday Nov 1,Minnesota,"Minneapolis, Minn.",L Loss 1-3
-Saturday Nov 2,Minnesota,"Minneapolis, Minn.",L Loss 0-1
-Friday Nov 15,Wisconsin,"University Park, Pa. / Pegula Ice Arena",L Loss 4-5
-Saturday Nov 16,Wisconsin,"University Park, Pa. / Pegula Ice Arena",L Loss 3-6
-Friday Nov 22,Michigan,"University Park, Pa. / Pegula Ice Arena",L Loss 5-6
-Saturday Nov 23,Michigan,"University Park, Pa. / Pegula Ice Arena",L Loss 6-10
-Tuesday Nov 26,Colgate,"University Park, Pa. / Pegula Ice Arena",W Win 3-2
-Wednesday Nov 27,Colgate,"University Park, Pa. / Pegula Ice Arena",W Win 7-1
-Thursday Dec 5,Ohio State,"Columbus, Ohio",L Loss 0-4
-Friday Dec 6,Ohio State,"Columbus, Ohio",L Loss 2-4
-Thursday Dec 12,Army,"Washington, D.C. / Capital One Arena",W Win 4-1
-Friday Jan 3,Notre Dame,"Chicago, Ill. / Wrigley Field",T Tie 3-3
-Sunday Jan 5,Notre Dame,"South Bend, Ind.",W Win 3-0
-Friday Jan 10,Michigan State,"University Park, Pa. / Pegula Ice Arena",L Loss 4-6
-Saturday Jan 11,Michigan State,"University Park, Pa. / Pegula Ice Arena",T Tie 2-2
-Friday Jan 17,Canisius,"University Park, Pa. / Pegula Ice Arena",W Win 4-0
-Saturday Jan 18,Canisius,"University Park, Pa. / Pegula Ice Arena",W Win 3-2
-Friday Jan 24,Ohio State,"University Park, Pa. / Pegula Ice Arena",T Tie 6-6
-Saturday Jan 25,Ohio State,"University Park, Pa. / Pegula Ice Arena",W Win 3-2
-Friday Jan 31,Michigan,"Ann Arbor, Mich.",W Win 5-4
-Saturday Feb 1,Michigan,"Ann Arbor, Mich.",L Loss 3-7
-Friday Feb 7,Wisconsin,"Madison, Wis.",W Win 2-0
-Saturday Feb 8,Wisconsin,"Madison, Wis.",W Win 6-2
-Friday Feb 14,Notre Dame,"University Park, Pa. / Pegula Ice Arena",W Win 5-3
-Saturday Feb 15,Notre Dame,"University Park, Pa. / Pegula Ice Arena",W Win 3-2
-Friday Feb 21,Michigan State,"East Lansing, Mich.",T Tie 2-2
-Saturday Feb 22,Michigan State,"East Lansing, Mich.",W Win 3-2
-Friday Feb 28,Minnesota,"University Park, Pa. / Pegula Ice Arena",W Win 4-3
-Saturday Mar 1,Minnesota,"University Park, Pa. / Pegula Ice Arena",L Loss 3-5
-Friday Mar 7,Michigan,"Ann Arbor, Mich.",W Win 6-5
-Saturday Mar 8,Michigan,"Ann Arbor, Mich.",W Win 5-2
-Saturday Mar 15,Ohio State,"Columbus, Ohio",L Loss 3-4
-Friday Mar 28,Maine,"Allentown, Pa. / PPL Center",W Win 5-1
-Sunday Mar 30,UConn,"Allentown, Pa. / PLL Center",W Win 3-2
-Thursday Apr 10,Boston University,"St. Louis, Mo. / Enterprise Center",L Loss 1-3
+Date,Opponent,Location,Result,Link
+Saturday Oct 5,Alaska,"Fairbanks, Alaska",W Win 4-3,https://gopsusports.com/boxscore/16818
+Sunday Oct 6,Alaska,"Fairbanks, Alaska",W Win 5-0,https://gopsusports.com/boxscore/16819
+Saturday Oct 12,Quinnipiac,"Hamden, Conn.",L Loss 2-3,https://gopsusports.com/boxscore/16820
+Friday Oct 25,St. Lawrence,"University Park, Pa. / Pegula Ice Arena",W Win 3-2,https://gopsusports.com/boxscore/16821
+Saturday Oct 26,St. Lawrence,"University Park, Pa. / Pegula Ice Arena",W Win 3-1,https://gopsusports.com/boxscore/16822
+Friday Nov 1,Minnesota,"Minneapolis, Minn.",L Loss 1-3,https://gopsusports.com/boxscore/16933
+Saturday Nov 2,Minnesota,"Minneapolis, Minn.",L Loss 0-1,https://gopsusports.com/boxscore/16934
+Friday Nov 15,Wisconsin,"University Park, Pa. / Pegula Ice Arena",L Loss 4-5,https://gopsusports.com/boxscore/16935
+Saturday Nov 16,Wisconsin,"University Park, Pa. / Pegula Ice Arena",L Loss 3-6,https://gopsusports.com/boxscore/16936
+Friday Nov 22,Michigan,"University Park, Pa. / Pegula Ice Arena",L Loss 5-6,https://gopsusports.com/boxscore/16937
+Saturday Nov 23,Michigan,"University Park, Pa. / Pegula Ice Arena",L Loss 6-10,https://gopsusports.com/boxscore/16938
+Tuesday Nov 26,Colgate,"University Park, Pa. / Pegula Ice Arena",W Win 3-2,https://gopsusports.com/boxscore/16823
+Wednesday Nov 27,Colgate,"University Park, Pa. / Pegula Ice Arena",W Win 7-1,https://gopsusports.com/boxscore/16824
+Thursday Dec 5,Ohio State,"Columbus, Ohio",L Loss 0-4,https://gopsusports.com/boxscore/16939
+Friday Dec 6,Ohio State,"Columbus, Ohio",L Loss 2-4,https://gopsusports.com/boxscore/16940
+Thursday Dec 12,Army,"Washington, D.C. / Capital One Arena",W Win 4-1,https://gopsusports.com/boxscore/16825
+Friday Jan 3,Notre Dame,"Chicago, Ill. / Wrigley Field",T Tie 3-3,https://gopsusports.com/boxscore/16941
+Sunday Jan 5,Notre Dame,"South Bend, Ind.",W Win 3-0,https://gopsusports.com/boxscore/16942
+Friday Jan 10,Michigan State,"University Park, Pa. / Pegula Ice Arena",L Loss 4-6,https://gopsusports.com/boxscore/16943
+Saturday Jan 11,Michigan State,"University Park, Pa. / Pegula Ice Arena",T Tie 2-2,https://gopsusports.com/boxscore/16944
+Friday Jan 17,Canisius,"University Park, Pa. / Pegula Ice Arena",W Win 4-0,https://gopsusports.com/boxscore/16826
+Saturday Jan 18,Canisius,"University Park, Pa. / Pegula Ice Arena",W Win 3-2,https://gopsusports.com/boxscore/16827
+Friday Jan 24,Ohio State,"University Park, Pa. / Pegula Ice Arena",T Tie 6-6,https://gopsusports.com/boxscore/16945
+Saturday Jan 25,Ohio State,"University Park, Pa. / Pegula Ice Arena",W Win 3-2,https://gopsusports.com/boxscore/16956
+Friday Jan 31,Michigan,"Ann Arbor, Mich.",W Win 5-4,https://gopsusports.com/boxscore/16946
+Saturday Feb 1,Michigan,"Ann Arbor, Mich.",L Loss 3-7,https://gopsusports.com/boxscore/16947
+Friday Feb 7,Wisconsin,"Madison, Wis.",W Win 2-0,https://gopsusports.com/boxscore/16948
+Saturday Feb 8,Wisconsin,"Madison, Wis.",W Win 6-2,https://gopsusports.com/boxscore/16949
+Friday Feb 14,Notre Dame,"University Park, Pa. / Pegula Ice Arena",W Win 5-3,https://gopsusports.com/boxscore/16950
+Saturday Feb 15,Notre Dame,"University Park, Pa. / Pegula Ice Arena",W Win 3-2,https://gopsusports.com/boxscore/16951
+Friday Feb 21,Michigan State,"East Lansing, Mich.",T Tie 2-2,https://gopsusports.com/boxscore/16952
+Saturday Feb 22,Michigan State,"East Lansing, Mich.",W Win 3-2,https://gopsusports.com/boxscore/16953
+Friday Feb 28,Minnesota,"University Park, Pa. / Pegula Ice Arena",W Win 4-3,https://gopsusports.com/boxscore/16954
+Saturday Mar 1,Minnesota,"University Park, Pa. / Pegula Ice Arena",L Loss 3-5,https://gopsusports.com/boxscore/16955
+Friday Mar 7,Michigan,"Ann Arbor, Mich.",W Win 6-5,https://gopsusports.com/boxscore/17231
+Saturday Mar 8,Michigan,"Ann Arbor, Mich.",W Win 5-2,https://gopsusports.com/boxscore/17232
+Saturday Mar 15,Ohio State,"Columbus, Ohio",L Loss 3-4,https://gopsusports.com/boxscore/17234
+Friday Mar 28,Maine,"Allentown, Pa. / PPL Center",W Win 5-1,https://gopsusports.com/boxscore/17236
+Sunday Mar 30,UConn,"Allentown, Pa. / PLL Center",W Win 3-2,https://gopsusports.com/boxscore/17737
+Thursday Apr 10,Boston University,"St. Louis, Mo. / Enterprise Center",L Loss 1-3,https://gopsusports.com/boxscore/17738
