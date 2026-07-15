@@ -66,7 +66,7 @@ print(response.text[:2000])
 ###############################################################################################################################
 
 ###Got the json file with the boxscore data. Inspecting the top-level structure and both teams 
-
+'''
 import requests 
 import json
 
@@ -114,4 +114,67 @@ print("Blocks:", full_game_stats.get("sBlocks", 0))
 print("Power-play opportunities:", full_game_stats.get("sTeamPowerPlayGoalAtt", 0))
 print("Power-play goals:", full_game_stats.get("sPowerPlayGoals", 0))
 
+'''
 
+
+#############################################################################################################################
+
+import requests
+from bs4 import BeautifulSoup
+import re
+
+
+def extract_wmt_game_id(boxscore_url):
+
+    response = requests.get(boxscore_url, timeout=30)
+    response.raise_for_status()
+
+    soup = BeautifulSoup(response.text, "lxml")
+
+    stats_div = soup.find("div", class_="boxscore-page__stats")
+
+    if stats_div is None:
+        raise ValueError(
+            f"Box-score statistics section was not found for {boxscore_url}"
+        )
+
+    stats_url = stats_div.get("src")
+
+    if stats_url is None:
+        raise ValueError(
+            f"Statistics URL was not found for {boxscore_url}"
+        )
+
+    match = re.search(r"/(\d+)/?$", stats_url)
+
+    if match is None:
+        raise ValueError(
+            f"WMT game ID could not be extracted from {stats_url}"
+        )
+
+    return match.group(1)
+
+
+
+def extract_games(game_id):
+
+    url = f"https://api.wmt.games/api/statistics/games/{game_id}"
+
+    response = requests.get(url, timeout = 30)
+    response.raise_for_status()
+
+    return response.json()
+
+
+
+if __name__ == "__main__":
+
+    sample_boxscore_url = "https://gopsusports.com/boxscore/16818"
+
+    game_id = extract_wmt_game_id(sample_boxscore_url)
+
+    print("WMT game ID:", game_id)
+
+    game = extract_games(game_id)
+
+    print(game.keys())
