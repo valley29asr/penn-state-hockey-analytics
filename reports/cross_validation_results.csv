@@ -1,5 +1,5 @@
 Model,Mean Accuracy,Std Deviation
-Logistic Regression,0.85,0.18371173070873836
-Decision Tree,0.75,0.07905694150420949
-Gradient Boosting,0.75,0.11180339887498948
-Random Forest,0.725,0.1457737973711325
+Logistic Regression,1.0,0.0
+Random Forest,1.0,0.0
+Gradient Boosting,0.9692307692307693,0.06153846153846154
+Decision Tree,0.9252747252747253,0.04872483357669311
