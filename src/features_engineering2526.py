@@ -22,8 +22,7 @@ df["Opponent Save %"] = (df["Opponent Saves"]/df["PSU Shots on Goal"]).round(3)
 
 
 ##Venue features
-home_location = ("University Park, Pa. / Pegula Ice Arena")
-home_location = ("University Park, Pa. / West Shore Home Field at Beaver Stadium")
+home_locations = ["University Park, Pa. / Pegula Ice Arena","University Park, Pa. / West Shore Home Field at Beaver Stadium"]
 
 neutral_locations = [
     "Washington, D.C. / Capital One Arena",
@@ -33,9 +32,9 @@ neutral_locations = [
     "St. Louis, Mo. / Enterprise Center"
 ] 
 
-df["Home Game"] = (df["Location"] == home_location).astype(int)
+df["Home Game"] = df["Location"].isin(home_locations).astype(int)
 df["Venue_Type"] = "Away"
-df.loc[df["Location"] == "University Park, Pa. / Pegula Ice Arena", "Venue_Type"] = "Home"
+df.loc[df["Location"].isin(home_locations), "Venue_Type"] = "Home"
 df.loc[df["Location"].isin(neutral_locations), "Venue_Type"] = "Neutral"
 
 
