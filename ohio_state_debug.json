@@ -1,0 +1,136 @@
+{
+  "data": {
+    "id": 6440326,
+    "season_id": 16963,
+    "season_academic_year": 2026,
+    "attendance": null,
+    "canceled": false,
+    "conf_contest_for_selections": true,
+    "conference_contest": true,
+    "created_at": "2025-09-01T16:09:53.205Z",
+    "dbl_header_game_no": 0,
+    "duration": null,
+    "game_date": "2025-10-31T18:30:00.000Z",
+    "game_date_utc": "2025-10-31T22:30:00.000Z",
+    "if_necessary": false,
+    "is_exhibition": false,
+    "is_game_time_tba": false,
+    "local_time_zone": "America/New_York",
+    "neutral_site": false,
+    "neutral_site_city": null,
+    "neutral_site_State": null,
+    "overtime_periods_played": null,
+    "periods_played": null,
+    "postponed": false,
+    "updated_at": "2025-10-31T09:41:07.660Z",
+    "scored_with_ncaa_live_stats": false,
+    "expected_to_be_scored_with_live_stats": true,
+    "ncaa_live_stats_id": 41441,
+    "stats_finalized": null,
+    "xml_file_exists": false,
+    "competitors": [
+      {
+        "id": 8273386,
+        "teamId": 610667,
+        "schoolId": 539,
+        "excludeFromStats": false,
+        "homeContest": false,
+        "score": null,
+        "teamGameNumber": 10,
+        "teamRecords": [
+          {
+            "record_type": "WL",
+            "wins": 8,
+            "losses": 1,
+            "ties": 0,
+            "wlPct": 0.8888888888888888
+          },
+          {
+            "record_type": "Conference",
+            "wins": 1,
+            "losses": 0,
+            "ties": 0,
+            "wlPct": 1
+          }
+        ],
+        "teamStats": null,
+        "homeTeam": false,
+        "inRegion": null,
+        "tie": null,
+        "vacatedTypeId": null,
+        "winner": null,
+        "nameTabular": "Penn St.",
+        "createdAt": "2025-09-01T16:09:53.221Z",
+        "updatedAt": "2025-10-31T01:12:54.795Z"
+      },
+      {
+        "id": 8273385,
+        "teamId": 610664,
+        "schoolId": 518,
+        "excludeFromStats": false,
+        "homeContest": true,
+        "score": null,
+        "teamGameNumber": 8,
+        "teamRecords": [
+          {
+            "record_type": "WL",
+            "wins": 4,
+            "losses": 3,
+            "ties": 0,
+            "wlPct": 0.5714285714285714
+          },
+          {
+            "record_type": "Conference",
+            "wins": 0,
+            "losses": 1,
+            "ties": 0,
+            "wlPct": 0
+          }
+        ],
+        "teamStats": null,
+        "homeTeam": true,
+        "inRegion": null,
+        "tie": null,
+        "vacatedTypeId": null,
+        "winner": null,
+        "nameTabular": "Ohio St.",
+        "createdAt": "2025-09-01T16:09:53.211Z",
+        "updatedAt": "2025-10-31T01:12:54.773Z"
+      }
+    ],
+    "schools": [
+      539,
+      518
+    ],
+    "teams": [
+      610667,
+      610664
+    ],
+    "home_school_id": 518,
+    "home_team_id": 610664,
+    "sport_code": "MIH",
+    "sport_title": "Men's Ice Hockey",
+    "venue": {
+      "id": 13624,
+      "name": "Value City Arena",
+      "primaryVenue": true,
+      "capacity": 19049,
+      "seatingCapacity": 19049,
+      "active": true,
+      "address1": "555 Borror Dr",
+      "address2": null,
+      "city": "Columbus",
+      "state": "OH",
+      "postalCode": "43210",
+      "countryCode": "US",
+      "latitude": 40.00766,
+      "longitude": -83.0250631,
+      "localTimeZone": "America/New_York",
+      "yearBuilt": 1998,
+      "ownedByOrgId": 518,
+      "usedByOrgId": 518,
+      "createdAt": "2019-06-26T17:02:17.000Z",
+      "updatedAt": "2025-10-20T03:02:39.429Z"
+    }
+  }
+}

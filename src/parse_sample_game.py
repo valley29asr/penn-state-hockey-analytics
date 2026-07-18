@@ -9,6 +9,11 @@ def parse_stats(game):
     for team in competitors:
         is_penn_state =  team["nameTabular"] == "Penn St."
 
+        team_stats = team.get("teamStats")
+
+        if not team_stats:
+            return None
+
         for stat_entry in team["teamStats"]:
             if stat_entry["period"] == 0:
                 stats = stat_entry["statistic"]

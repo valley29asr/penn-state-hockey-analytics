@@ -122,6 +122,7 @@ print("Power-play goals:", full_game_stats.get("sPowerPlayGoals", 0))
 import requests
 from bs4 import BeautifulSoup
 import re
+import time
 
 
 def extract_wmt_game_id(boxscore_url):
@@ -159,17 +160,38 @@ def extract_wmt_game_id(boxscore_url):
 def extract_games(game_id):
 
     url = f"https://api.wmt.games/api/statistics/games/{game_id}"
+    max_attempts = 3
 
-    response = requests.get(url, timeout = 30)
-    response.raise_for_status()
+    for attempt in range(1, max_attempts+1):
+        try:
+            response = requests.get(url, timeout = 60)
+            response.raise_for_status()
+            return response.json()
+        except(
+            requests.exceptions.ConnectTimeout,
+            requests.exceptions.ReadTimeout,
+            requests.exceptions.ConnectionError
+        ) as error:
+            print(
+                f"Attempt {attempt}/{max_attempts} failed "
+                f"for WMT game ID {game_id}"
+            )
+            print(error)
 
-    return response.json()
+            if attempt < max_attempts:
+                print("Waiting 5 seconds before retrying...")
+                time.sleep(5)
+            else:
+                raise
+
+    
 
 
 
 if __name__ == "__main__":
 
     sample_boxscore_url = "https://gopsusports.com/boxscore/16818"
+    
 
     game_id = extract_wmt_game_id(sample_boxscore_url)
 
