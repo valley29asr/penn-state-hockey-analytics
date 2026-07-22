@@ -1,6 +1,6 @@
 dataPath = "data/processed/penn_state_processed_combined_stats.csv"
 
-navigationPages = ["Season Overview", "Performance Analysis", "Machine Learning", "Game Explorer"]
+navigationPages = ["Home", "Season Overview", "Performance Analysis", "Machine Learning","Hockey Insights", "Game Explorer"]
 
 modelFeatures = [
     "PSU Shots on Goal", 

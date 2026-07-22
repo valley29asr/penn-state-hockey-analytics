@@ -259,6 +259,7 @@ def render(df):
     excluded_columns = [
         "Win",
         "Game Number",
+        "WMT Game ID"
     ]
 
     chart_options = [

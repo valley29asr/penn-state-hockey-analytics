@@ -4,10 +4,12 @@ from config import navigationPages
 from styles import apply_styles
 from utils import load_data
 
+import home
 import overview
 import performance
 import machine_learning
 import game_explorer
+import insight
 
 
 # ---------------------------------------------------------
@@ -41,6 +43,7 @@ st.sidebar.title("🏒 Navigation")
 page = st.sidebar.radio(
     "Choose a page",
     navigationPages,
+    key = "selected_page"
 )
 
 st.sidebar.markdown("---")
@@ -66,7 +69,11 @@ drivers of winning hockey games.
 # ROUTER
 # ---------------------------------------------------------
 
-if page == "Season Overview":
+if page == "Home":
+
+    home.render(df)
+
+elif page == "Season Overview":
 
     overview.render(df)
 
@@ -77,6 +84,8 @@ elif page == "Performance Analysis":
 elif page == "Machine Learning":
 
     machine_learning.render(df)
+elif page == "Hockey Insights":
+    insight.render(df)
 
 elif page == "Game Explorer":
 
