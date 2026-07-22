@@ -32,7 +32,7 @@ The project was inspired by the growing role of analytics in hockey and demonstr
 
 # 📊 Dashboard Preview
 
-> *(Replace these with screenshots after taking them.)*
+> *(Replace these with screenshots.)*
 
 ## Home
 
