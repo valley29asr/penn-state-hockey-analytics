@@ -1,221 +1,243 @@
 # 🏒 Penn State Hockey Analytics
 
-An end-to-end hockey analytics project that collects, processes, and analyzes **Penn State Men's Hockey** data to identify the factors that contribute most to winning hockey games.
+> An end-to-end hockey analytics platform that collects, processes, analyzes, and visualizes Penn State Men's Hockey data to identify the key drivers behind winning games.
 
-This project builds a complete analytics pipeline—from web scraping and API reverse engineering to feature engineering, machine learning, and interactive dashboards—using modern Python tools.
-
----
-
-## 🚀 Project Goals
-
-- Build a complete game-level hockey dataset
-- Automate data collection from official Penn State sources
-- Engineer advanced hockey performance metrics
-- Analyze the biggest drivers of winning
-- Build predictive machine learning models
-- Create an interactive dashboard for coaches and analysts
----
-
-## 🛠️ Tech Stack
-
-- Python
-- Pandas
-- NumPy
-- Requests
-- BeautifulSoup
-- JSON APIs
-- Scikit-learn *(planned)*
-- Plotly *(planned)*
-- Streamlit *(planned)*
-- Git & GitHub
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-green)
 
 ---
 
-## 📂 Project Structure
+# 📖 Overview
 
+This project is a complete hockey analytics platform built around **Penn State Men's Hockey**. It combines automated data collection, feature engineering, statistical analysis, machine learning, and interactive visualization into a single end-to-end workflow.
+
+The project was inspired by the growing role of analytics in hockey and demonstrates how modern data science can be used to better understand team performance and the factors associated with winning games.
+
+---
+
+# 🏆 Project Highlights
+
+- 🏒 Built a complete analytics platform for Penn State Men's Hockey
+- 📅 Collected and processed **two full seasons** of game data (2024–25 and 2025–26)
+- 🔄 Automated data collection using official Penn State Athletics data and the WMT Digital API
+- 📊 Engineered advanced hockey performance metrics for game-level analysis
+- 🤖 Trained and evaluated multiple machine learning models
+- 📈 Created interactive dashboards for exploring team performance
+- 💻 Designed a Streamlit application for coaches, analysts, and fans
+
+---
+
+# 📊 Dashboard Preview
+
+> *(Replace these with screenshots after taking them.)*
+
+## Home
+
+![Home](assets/home.png)
+
+---
+
+## Season Overview
+
+![Overview](assets/overview.png)
+
+---
+
+## Performance Analysis
+
+![Performance](assets/performance.png)
+
+---
+
+## Machine Learning
+
+![ML](assets/machine_learning.png)
+
+---
+
+## Hockey Insights
+
+![Insights](assets/hockey_insights.png)
+
+---
+
+## Game Explorer
+
+![Explorer](assets/game_explorer.png)
+
+---
+
+# ⚙️ Data Pipeline
+
+```text
+Official Penn State Schedule
+            │
+            ▼
+Schedule Scraper
+            │
+            ▼
+Box Score Links
+            │
+            ▼
+WMT Digital API
+            │
+            ▼
+JSON Parsing
+            │
+            ▼
+Raw Game Statistics
+            │
+            ▼
+Feature Engineering
+            │
+            ▼
+Exploratory Data Analysis
+            │
+            ▼
+Machine Learning
+            │
+            ▼
+Interactive Dashboard
 ```
+
+---
+
+# 📈 Features
+
+### Data Collection
+
+- Automated schedule scraping
+- Box score extraction
+- API reverse engineering
+- JSON parsing
+- Error handling
+
+### Feature Engineering
+
+- Shot Differential
+- Faceoff Differential
+- Shooting Percentage
+- Save Percentage
+- Goal Differential
+- Home / Away / Neutral classification
+
+### Exploratory Data Analysis
+
+- Win vs. Loss comparisons
+- Home vs. Away performance
+- Opponent analysis
+- Season trends
+- Performance summaries
+
+### Machine Learning
+
+Models evaluated:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+
+Evaluation techniques:
+
+- Train/Test Split
+- Stratified Cross Validation
+- Hyperparameter Tuning
+- Feature Importance
+- Confusion Matrix
+- Classification Report
+
+### Dashboard
+
+Interactive pages include:
+
+- Home
+- Season Overview
+- Performance Analysis
+- Machine Learning
+- Hockey Insights
+- Game Explorer
+
+---
+
+# 🏆 Key Findings
+
+Some of the major insights from the analysis include:
+
+- Positive shot differential is strongly associated with winning.
+- Winning games generally feature stronger faceoff performance.
+- Home games produce the highest win percentage.
+- Random Forest achieved the strongest performance for post-game outcome classification.
+- Interactive dashboards make it easy to compare seasons, opponents, and game-level performance.
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Programming | Python |
+| Data Processing | Pandas, NumPy |
+| Data Collection | Requests, BeautifulSoup |
+| Machine Learning | Scikit-Learn |
+| Visualization | Plotly |
+| Dashboard | Streamlit |
+| Version Control | Git & GitHub |
+
+---
+
+# 📂 Repository Structure
+
+```text
 penn-state-hockey-analytics/
+
+├── dashboard/
+│   ├── app.py
+│   ├── home.py
+│   ├── overview.py
+│   ├── performance.py
+│   ├── hockey_insights.py
+│   ├── machine_learning.py
+│   ├── game_explorer.py
 │
 ├── data/
 │   ├── raw/
 │   └── processed/
 │
-├── dashboard/
+├── models/
 ├── notebooks/
 ├── reports/
 ├── src/
-├── tests/
-│
+├── assets/
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-## ✅ Progress
+# 🚀 Future Improvements
 
-## ✔️ Day 1 — Project Setup
-
-- Created project structure
-- Initialized Git repository
-- Created GitHub repository
-- Set up Python virtual environment
-
----
-
-## ✔️ Day 2 — Schedule Scraper
-
-Built a scraper for the official Penn State Athletics website that collected the complete **2024–25 schedule**.
-
-Extracted:
-
-- Date
-- Opponent
-- Location
-- Game Result
-- Box Score Link
-
-Saved the results as a structured CSV dataset.
+- Player-level analytics
+- Expected Goals (xG)
+- Live game dashboards
+- Automated season updates
+- Pre-game predictive models
+- Opponent scouting reports
+- Interactive player comparisons
 
 ---
 
-## ✔️ Day 3 — Reverse Engineering Box Scores
+# 👤 Author
 
-Investigated the Penn State Athletics box score pages.
+**Anshruta Rahar**
 
-Discovered that:
+Computer Science & Applied Statistics
 
-- Statistics are **not contained in the HTML**
-- The website loads data dynamically
-- Game statistics come from a hidden **WMT Digital JSON API**
+The Pennsylvania State University
 
-Successfully identified the API powering every official box score.
-
----
-
-## ✔️ Day 4 — API Connection
-
-Connected directly to the WMT Digital API.
-
-Successfully:
-
-- Retrieved JSON game data
-- Parsed nested API responses
-- Extracted Penn State team statistics
-- Verified data against official box scores
-
----
-
-## ✔️ Day 5 — Automated Team Stat Extraction
-
-Built an automated extraction pipeline that:
-
-- Loops through every game in the season
-- Downloads statistics directly from the API
-- Extracts Penn State team statistics
-- Stores structured results for further analysis
-
-Extracted statistics include:
-
-- Goals
-- Shots
-- Faceoff Wins
-- Faceoff Losses
-- Faceoff Percentage
-- Power Play Goals
-- Power Play Opportunities
-- Penalties
-- Penalty Minutes
-- Saves
-- Goals Against
-- Blocks
-- Additional team metrics available through the API
-
----
-
-## ✔️ Day 6 — Robust Data Collection
-
-Improved the scraping pipeline by handling edge cases across the season.
-
-Added:
-
-- Automatic error handling
-- Missing-stat detection
-- Support for games with inconsistent API responses
-- Progress reporting while scraping
-
-Successfully generated a clean season dataset containing Penn State team statistics for nearly every game.
-
----
-
-## ✔️ Day 7 — Dataset Completion
-
-Completed the full-season data collection pipeline.
-
-Current pipeline:
-
-```
-Official Schedule
-        ↓
-   Box Score Links
-        ↓
- WMT Digital API
-        ↓
-    JSON Parsing
-        ↓
- Team Statistics
-        ↓
- Structured Dataset (CSV)
-```
-
-The project can now automatically build a structured season dataset from official Penn State data.
-
----
-# 📊 Current Dataset
-
-Each game currently includes information such as:
-
-- Date
-- Opponent
-- Location
-- Result
-- Goals
-- Shots
-- Faceoff Wins
-- Faceoff Losses
-- Faceoff Percentage
-- Saves
-- Goals Against
-- Power Play Goals
-- Power Play Opportunities
-- Penalties
-- Penalty Minutes
-- Blocks
-
----
-
-## 📅 Next Steps
-
-- Build the master cleaned dataset
-- Engineer advanced hockey metrics
-- Create visualizations
-- Perform exploratory data analysis (EDA)
-- Train machine learning models
-- Evaluate feature importance
-- Build an interactive Streamlit dashboard
-
----
-
-## 🎯 Planned Analytics
-
-- Win/Loss prediction
-- Home vs. Away performance
-- Shot efficiency
-- Faceoff impact
-- Special teams analysis
-- Defensive performance
-- Team performance trends
-- Feature importance analysis
-- Interactive visual dashboards
+Interested in Sports Analytics, Machine Learning, Data Science, and Software Engineering.
 
 ---
