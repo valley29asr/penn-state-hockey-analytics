@@ -19,7 +19,7 @@ def go_to_page(page_name):
 
 def find_venue_column(df):
     possible_columns = [
-        "Venue Type",
+        "Venue_Type",
         "Venue",
         "Location Type",
         "Game Location",
